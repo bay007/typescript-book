@@ -17,7 +17,7 @@ console.log(bar.baz); // 123
 ```js
 var foo = {};
 var bar = foo; // bar es una referencia
-var baz = {}; // baz es un *nuevo objecto* diferente a `foo`
+var baz = {}; // baz es un *nuevo objeto* diferente a `foo`
 
 console.log(foo === bar); // verdadero
 console.log(foo === baz); // falso
