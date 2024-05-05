@@ -1,6 +1,6 @@
 ## Igualdad
 
-One cosa con la que hay que tener cuidado en Javascript es la diferencia entre `==` y `===`. Como JavaScript trata de ser resiliente contra errores de programación, `==` trata de coercer los tipos de dos variables. Por ejemplo, convierte una string a un número para que los puedas comparar: 
+One cosa con la que hay que tener cuidado en Javascript es la diferencia entre `==` y `===`. Como JavaScript trata de ser resiliente contra errores de programación, `==` trata de coercer los tipos de dos variables. Por ejemplo, convierte un string a un número para que los puedas comparar: 
 
 ```js
 console.log(5 == "5"); // verdadero   , TS Error
