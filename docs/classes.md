@@ -58,7 +58,7 @@ Si tienes un constructor en tu clase entonces *debes* llamar al contructor del c
 
 Nota que puedes anular las funciones del padre fácilmente (aquí anulamos `add`) y todavía utilizamos la funcionalidad de de la clase super en tus miembros (utilizando la sintaxis `super`)
 
-### Estadísticas
+### Estatícas
 las clases de TypeScript soportan propiedades `static` (estáticas) que son comppartidas por todas las instancias de la clase. Un lugar natural para ponerlas (y acceder a ellas) en es la clase misma, y eso es lo que TypeScript hace:
 
 ```ts
