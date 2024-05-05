@@ -17,7 +17,7 @@ console.log("" === "0"); // falso
 console.log(0 === ""); // falso
 ```
 
-> Notemos que tanto `string == numbero` como `string === numbero`  son errores de compilación en TypeScript, asi que normalmente no tienes que preocuparte por esto.
+> Notemos que tanto `string == number` como `string === number`  son errores de compilación en TypeScript, asi que normalmente no tienes que preocuparte por esto.
 
 De forma similar a `==` vs. `===`, hay un `!=` vs. `!==`
 
