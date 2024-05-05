@@ -100,7 +100,7 @@ A modo de ejemplo sobre como podrías escribir tu propio archivo de declaracione
 ```ts
 $('.genial').show(); // Error: cannot find name `$` (Error: no es posible encontrar el nombre `$`)
 ```
-A modod de solución, *le puedes indicar a TypeScript* que existe algo llamado `$`: 
+A modo de solución, *le puedes indicar a TypeScript* que existe algo llamado `$`: 
 ```ts
 declare var $: any;
 $('.genial').show(); // Ok!
