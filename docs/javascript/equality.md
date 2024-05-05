@@ -7,7 +7,7 @@ console.log(5 == "5"); // verdadero   , TS Error
 console.log(5 === "5"); // falso , TS Error
 ```
 
-Sin embargo, las elecciones de Javascript no siempre son ideales. Por ejemplo, en el ejemplo que sigue la primera declaración es falsa porque `""` y `"0"` son los dos strings y claramente no iguales. Sin embargo, en el segundo caso, ambos `0` y la string vacía (`""`) son falsy (en otras palabras, se comportan como `falso`) y son, por lo tanto, iguales en lo que respecta a `==`. Ambas declaraciones son falsas cuando se utiliza `===`.
+Sin embargo, las elecciones de Javascript no siempre son ideales. Por ejemplo, en el ejemplo que sigue, el primer caso es falso porque `""` y `"0"` son los dos strings y claramente no iguales. Sin embargo, en el segundo caso, ambos `0` y la string vacía (`""`) son falsy (en otras palabras, se comportan como `falso`) y son, por lo tanto, iguales en lo que respecta a `==`. Ambas declaraciones son falsas cuando se utiliza `===`.
 
 ```js
 console.log("" == "0"); // falso
